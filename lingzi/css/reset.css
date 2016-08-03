@@ -1,0 +1,135 @@
+html, body, div, span, iframe,
+h1, h2, h3, h4, h5, h6, p, 
+em, img,strong,var,b, i,s,
+dl, dt, dd, ol, ul, li,
+form, label,input,select,textarea, 
+table, caption, tbody, tfoot, thead, tr, th, td,button
+{
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    background:transparent;
+  
+}
+html , body {
+	height: 100%;
+	width: 100%;
+	font-family: "Microsoft Yahei"
+}
+ul , ol{
+    list-style:none;
+}
+a{
+	color:#000;
+	text-decoration: none;
+}
+a img{
+	border:none;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.clear:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.url{
+	display:inline-block;
+	background: url(../image/icon.png) no-repeat;
+}
+.w100{
+	width: 100%;
+	min-width: 1366px;
+}
+iframe{
+	width: 100%;
+	min-width: 1140px;
+}
+.top>iframe{
+	height: 33px;
+}
+.footer>iframe{
+	height: 56px;
+}
+.content{
+	width: 1140px;
+	margin: 40px auto 46px;
+	background: #f5f5f5;
+	overflow: hidden;
+}
+.content>h2{
+	width: 108px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	font-size: 15.38px;
+	font-weight: normal;
+	color: #fff;
+	margin: 30px 0 0 30px;
+	background: #cb00da;
+}
+.content>div.context{
+	width: 1080px;
+	margin: 0 auto ;
+	padding: 30px 0 30px 0;
+	background-color: #fff;
+	margin-bottom: 85px;
+}
+.content>div.context>div{
+	width: 1020px;
+	margin: 0 auto;
+}
+
+/*翻页通用样式*/
+.bot{
+	font-size: 12px;
+	color: #3c3c3c;
+	height: 24px;
+	line-height: 24px;
+	text-align: right;
+	margin: 38px 0 53px 0;
+}
+.bot>span,.bot>b,.bot>i,.bot>input{
+	height: 24px;
+	text-align: center;
+	font-size: 12px;
+	display: inline-block;
+}
+.bot>span{
+	cursor: pointer;
+	width: 23px;
+	/*color: #3c3c3c;*/
+	margin-left: 4px;
+	background: #ebebeb;
+}
+.bot>b{
+	cursor: pointer;
+	width: 54px;
+	color: #3c3c3c;
+	font-weight: normal;
+	margin-left: 4px;
+	background: #ebebeb;
+}
+.bot>i{
+	font-style: normal;
+	margin: 0 3px 0;
+	color: #fff;
+}
+.bot>input{
+	width: 38px;
+	margin: 0 3px 0;
+	background: #ebebeb;
+}
+.bot>.active{
+	color: #fff;
+	background-color: #7b2783;
+}
+.footer>iframe{
+	height: 60px;
+}

@@ -1,0 +1,75 @@
+body{
+	background: #09070e;
+}
+.content h2{
+	margin-left: 324px;
+}
+.content>div.context{
+	width: 404px;
+	height: 527px;
+	padding: 44px;
+	margin: 0 auto 130px;
+}
+.content>div.context>div{
+	width: 404px;
+	margin-bottom: 10px;
+}
+.context>div span{
+	font-size: 14px;
+	color: #3b3b3b;
+	display: inline-block;
+	width: 70px;
+	text-align: right;
+	line-height: 33px;
+}
+.context>div input{
+	background: #ebebeb;
+	height: 33px;
+}
+.name input,.email input,.title input{
+	width: 200px;
+}
+.add select{
+	width: 82px;
+	height: 33px;
+	background: #ebebeb;
+}
+.type input{
+	margin-right: 5px;
+	vertical-align: middle;
+}
+.type b{
+	font-size: 14px;
+	font-weight: normal;
+}
+.matter textarea{
+	width: 300px;
+	height: 105px;
+	background: #ebebeb;
+	vertical-align: top;
+}
+.test input{
+	width: 72px;
+}
+.test img{
+	width: 36px;
+	height: 33px;
+	vertical-align: middle;
+}
+.btn{
+	text-align: right;
+}
+button{
+	cursor: pointer;
+	font-size: 16px;
+	color: #fff;
+	width: 88px;
+	height: 34px;
+	background: #70007a;
+	margin: 60px 5px 10px;
+}
+.context a{
+	font-size: 14px;
+	color: #0027b8;
+	text-decoration: underline;
+}

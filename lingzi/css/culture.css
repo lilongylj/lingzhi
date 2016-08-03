@@ -1,0 +1,37 @@
+.contxt{
+	height: 822px;
+	margin: 30px auto 70px;
+	padding: 15px 15px 45px 41px;
+	background: #fff url(../image/culture-bg.png) 16px 17px no-repeat;
+}
+p{
+	font-size: 14px;
+	color: #3b3b3b;
+	line-height: 25px;
+}
+.p1{
+	margin-top: 10px;
+}
+h3{
+	font-size: 14px;
+	margin-top: 14px;
+}
+button{
+	width: 75px;
+	height: 37px;
+	font-size: 16px;
+	background: #fff;
+	margin: 37px 0 17px 0;
+}
+.blue{
+	color: #3da4b0;
+	border: 1px solid #3da4b0;
+}
+.red{
+	color: #e45642;
+	border: 1px solid #e45642;
+}
+.yellow{
+	color: #c2992c;
+	border: 1px solid #c2992c;
+}

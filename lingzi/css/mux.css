@@ -1,0 +1,20 @@
+body{
+	background: #09070e url(../image/industry-bg1.png) 200px -20px no-repeat;
+}
+.contenti{
+	width: 1140px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.header{
+	height: 58px;
+	border-bottom: 2px solid #96949d;
+	overflow: hidden;
+}
+.header h2{
+	font-size: 14px;
+	color: #fff;
+	text-indent: 3px;
+	font-weight: normal;
+	margin-top: 22px;
+}

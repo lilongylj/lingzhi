@@ -1,0 +1,24 @@
+.contenti>div.contxt{
+	width: 1155px;
+	margin-top: 27px;
+	margin-bottom: 130px;
+}
+.contenti>div.contxt>div.contxt1{
+	width: 216px;
+	height: 233px;
+	background: #fff;
+	margin: 0 15px 20px 0;
+	overflow: hidden;
+}
+.contenti>div.contxt>div.contxt1 img{
+	display: block;
+	margin: 3px auto;
+}
+.contenti>div.contxt>div.contxt1 p{
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size:14px ;
+	color: #3b3b3b;
+	border-top: 1px solid ;
+}

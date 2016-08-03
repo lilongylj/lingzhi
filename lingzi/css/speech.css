@@ -1,0 +1,18 @@
+body{
+	background: #09070e url(../image/industry-bg1.png) 200px -20px no-repeat;
+}
+.content>div.context{
+	height: 333px;
+	background: url(../image/speech-bg.png) no-repeat;
+}
+p{
+	width: 1005px;
+	margin:  0 auto 30px;
+	font-size: 12.31px;
+	color: #3b3b3b;
+	text-indent: 2em;
+	line-height: 24px;
+}
+img{
+	margin-left: 605px;
+}
